@@ -1,0 +1,25 @@
+# VSCode settings
+.vscode/
+
+# Maven build output
+/target/
+
+# Database file
+codetrack.db
+
+# Logs or generated files (if any)
+*.log
+
+# OS or IDE specific
+.DS_Store
+Thumbs.db
+
+# Java build
+*.class
+
+# Dependency resolutions (optional, if not committing)
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml

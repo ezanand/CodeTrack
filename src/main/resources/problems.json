@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nAssume exactly one solution exists, and no element is used twice.\n\n**Example:**\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]",
+    "difficulty": "Easy",
+    "testCasesJson": "[{\"input\":\"nums=[2,7,11,15],target=9\",\"expectedOutput\":\"[0,1]\",\"description\":\"Basic test\"},{\"input\":\"nums=[3,2,4],target=6\",\"expectedOutput\":\"[1,2]\",\"description\":\"Unsorted array\"},{\"input\":\"nums=[3,3],target=6\",\"expectedOutput\":\"[0,1]\",\"description\":\"Duplicate values\"},{\"input\":\"nums=[-1,0,1,2,3],target=2\",\"expectedOutput\":\"[0,3]\",\"description\":\"Negative and zero\"}]"
+  },
+  {
+    "id": 2,
+    "title": "Palindrome Check",
+    "description": "Check whether a given string is a palindrome. Ignore casing and non-alphanumeric characters.\n\n**Example:**\nInput: \"A man, a plan, a canal: Panama\"\nOutput: true",
+    "difficulty": "Easy",
+    "testCasesJson": "[{\"input\":\"A man, a plan, a canal: Panama\",\"expectedOutput\":\"true\",\"description\":\"Classic palindrome\"},{\"input\":\"race a car\",\"expectedOutput\":\"false\",\"description\":\"Not a palindrome\"},{\"input\":\"No lemon, no melon\",\"expectedOutput\":\"true\",\"description\":\"Spaces and punctuation\"},{\"input\":\"\",\"expectedOutput\":\"true\",\"description\":\"Empty string\"}]"
+  },
+  {
+    "id": 3,
+    "title": "Fibonacci Number",
+    "description": "Return the Nth Fibonacci number. F(0)=0, F(1)=1, F(n)=F(n-1)+F(n-2)\n\n**Example:**\nInput: 6\nOutput: 8",
+    "difficulty": "Easy",
+    "testCasesJson": "[{\"input\":\"0\",\"expectedOutput\":\"0\",\"description\":\"Base case\"},{\"input\":\"1\",\"expectedOutput\":\"1\",\"description\":\"Base case\"},{\"input\":\"5\",\"expectedOutput\":\"5\",\"description\":\"Middle value\"},{\"input\":\"10\",\"expectedOutput\":\"55\",\"description\":\"Double digits\"}]"
+  },
+  {
+    "id": 4,
+    "title": "Reverse Words in String",
+    "description": "Given a string `s`, reverse the order of words. Remove extra spaces.\n\n**Example:**\nInput: \"  hello world  \"\nOutput: \"world hello\"",
+    "difficulty": "Medium",
+    "testCasesJson": "[{\"input\":\"  hello world  \",\"expectedOutput\":\"world hello\",\"description\":\"Extra spaces\"},{\"input\":\"a good   example\",\"expectedOutput\":\"example good a\",\"description\":\"Multiple spaces\"},{\"input\":\"bob loves alice\",\"expectedOutput\":\"alice loves bob\",\"description\":\"Normal case\"},{\"input\":\" \",\"expectedOutput\":\"\",\"description\":\"Blank string\"}]"
+  },
+  {
+    "id": 5,
+    "title": "Valid Parentheses",
+    "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. A string is valid if all brackets are closed in the correct order.\n\n**Example:**\nInput: \"()[]{}\"\nOutput: true",
+    "difficulty": "Medium",
+    "testCasesJson": "[{\"input\":\"()[]{}\",\"expectedOutput\":\"true\",\"description\":\"All valid\"},{\"input\":\"(]\",\"expectedOutput\":\"false\",\"description\":\"Mismatch\"},{\"input\":\"([)]\",\"expectedOutput\":\"false\",\"description\":\"Incorrect order\"},{\"input\":\"{[]}\",\"expectedOutput\":\"true\",\"description\":\"Nested valid\"}]"
+  }
+]
